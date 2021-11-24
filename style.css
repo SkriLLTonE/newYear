@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    background: url(https://avatanplus.com/files/resources/original/5e13a201b8bc516f7cb0d6dd.jpg)no-repeat;
+    background-size: cover;
+    color: white;
+    background-position:center;
+    height: 100vh;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    text-transform: capitalize;
+}
+.text{
+    font-size: 50px;
+}
+.countdown{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background: linear-gradient(0deg, rgba(92,185,255,1) 0%, rgba(110,255,229,1) 100%);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 41px 7px rgba(34, 60, 80, 0.26);
+}
+.timer h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+small{
+    font-size: 22px;
+}
